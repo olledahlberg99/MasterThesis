@@ -1,0 +1,17 @@
+winpty docker exec -it scala2_12-master-1 tc qdisc add dev eth0 root netem delay 5ms
+winpty docker exec -it scala2_12-spark-worker-1-1 tc qdisc add dev eth0 root netem delay 5ms
+winpty docker exec -it scala2_12-spark-worker-2-1 tc qdisc add dev eth0 root netem delay 5ms
+winpty docker exec -it scala2_12-spark-worker-3-1 tc qdisc add dev eth0 root netem delay 5ms
+winpty docker exec -it scala2_12-spark-worker-4-1 tc qdisc add dev eth0 root netem delay 5ms
+winpty docker exec -it scala2_12-spark-worker-5-1 tc qdisc add dev eth0 root netem delay 5ms
+winpty docker exec -it scala2_12-spark-worker-6-1 tc qdisc add dev eth0 root netem delay 5ms
+winpty docker exec -it scala2_12-spark-worker-7-1 tc qdisc add dev eth0 root netem delay 5ms
+winpty docker exec -it scala2_12-spark-worker-8-1 tc qdisc add dev eth0 root netem delay 5ms
+winpty docker exec -it scala2_12-spark-worker-9-1 tc qdisc add dev eth0 root netem delay 5ms
+winpty docker exec -it scala2_12-spark-worker-10-1 tc qdisc add dev eth0 root netem delay 5ms
+winpty docker exec -it scala2_12-spark-worker-11-1 tc qdisc add dev eth0 root netem delay 5ms
+winpty docker exec -it scala2_12-spark-worker-12-1 tc qdisc add dev eth0 root netem delay 5ms
+winpty docker exec -it scala2_12-spark-worker-13-1 tc qdisc add dev eth0 root netem delay 5ms
+winpty docker exec -it scala2_12-spark-worker-14-1 tc qdisc add dev eth0 root netem delay 5ms
+winpty docker exec -it scala2_12-spark-worker-15-1 tc qdisc add dev eth0 root netem delay 5ms
+winpty docker exec -it scala2_12-spark-worker-16-1 tc qdisc add dev eth0 root netem delay 5ms

@@ -1,0 +1,1 @@
+winpty docker exec -it scala2_12-master-1 bash spark-shell --master spark://master:7077 --executor-memory 2G --driver-memory 4G --conf spark.serializer=org.apache.spark.serializer.KryoSerializer --conf spark.graphx.pregel.checkpointInterval=10
